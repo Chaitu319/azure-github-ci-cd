@@ -1,6 +1,6 @@
 $action = $args[0] # preview, reset, swap
-$resourceGroup = '<resource-group name here>'
-$webapp = '<webapp name here>'
+$resourceGroup = 'ms-azure-github'
+$webapp = 'ms-azure-github'
 $slot = 'staging'
 
 az webapp deployment slot swap --name $webapp --resource-group $resourceGroup --slot $slot --action $action
